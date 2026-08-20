@@ -1,0 +1,22 @@
+
+.container-produto {
+  display: grid; 
+  gap: 20px;            
+  justify-content: center;
+  align-items: center;  
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.item-produto {
+  text-align: center;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 35px;
+}
+
+.item-produto img {
+  width: 400px;         
+  height: auto;    
+  object-fit: cover;    
+}
